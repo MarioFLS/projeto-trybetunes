@@ -1,0 +1,35 @@
+.section-profile {
+  background-color: rgb(40, 40, 92);
+  background-image: linear-gradient(rgb(40, 40, 92), rgb(0, 0, 114));
+  margin: 3% auto;
+  width: 50%;
+  height: 50%;
+  background-color: rgb(121, 112, 112);
+  color: white;
+  padding: 50px;
+  font-size: 1.5em;
+}
+
+.image-profile {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.image-profile > img {
+  width: 100%;
+}
+
+.section-profile > p {
+  margin-bottom: 20px;
+}
+
+.name-perfil {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgb(32, 32, 32);
+}
+
+.name {
+  margin-left: 10px;
+}

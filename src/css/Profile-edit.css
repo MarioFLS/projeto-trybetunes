@@ -1,0 +1,58 @@
+.container-form {
+  align-items: center;
+  background-color: rgb(40, 40, 92);
+  background-image: linear-gradient(rgb(40, 40, 92), rgb(0, 0, 114));
+  color: white;
+  display: flex;
+  height: 80vh;
+  justify-content: space-evenly;
+  margin: 1% auto;
+  padding: 40px;
+  flex-direction: column;
+  width: 90%;
+}
+
+.container-form > label {
+  font-size: 1.3em;
+}
+
+.container-form > label > input {
+  padding: 20px;
+  margin-left: 20px;
+  outline: none;
+  font-size: 1em;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.678);
+  border: none;
+}
+
+.container-form > label > textarea {
+  padding: 20px;
+  margin-left: 20px;
+  outline: none;
+  font-size: 1em;
+  transform: translateY(20px);
+  box-shadow: 1px 2px rgba(0, 0, 0, 0.219);
+  border: none;
+  resize: none;
+}
+
+.container-form > button {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(14, 14, 119);
+  padding: 20px;
+  transform: translateY(-10px);
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(255, 252, 252, 0.164);
+  width: 20%;
+
+}
+
+.container-form > button:hover {
+  box-shadow: 1px 1px 10px rgba(255, 252, 252, 0.548);
+}
+
+.container-form > p {
+  font-size: 2em;
+  text-shadow: 1px 1px 2px rgb(32, 32, 32);
+}

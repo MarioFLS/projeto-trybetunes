@@ -1,0 +1,41 @@
+.container-login {
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 5px 20px rgb(71, 69, 69);
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6em;
+  height: 80vh;
+  margin: 70px auto 0;
+  width: 30vw;
+}
+
+.container-login > h1 {
+  margin-top: 40%;
+  text-transform: uppercase;
+}
+
+.container-login > button {
+  background-color: rgb(224, 63, 224);
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 30px;
+  outline: none;
+  padding: 20px;
+  text-transform: uppercase;
+  width: 70%;
+}
+
+.container-login > button:disabled {
+  background-color: rgba(228, 36, 228, 0.336);
+  color: #666;
+}
+
+.input-login {
+  margin-top: 40px;
+  outline: none;
+  padding: 20px;
+  width: 70%;
+}

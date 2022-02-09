@@ -1,0 +1,92 @@
+.container-search {
+  margin-top: 3em;
+  text-align: center;
+}
+
+.container-search > input {
+  border: none;
+  border-radius: 20px;
+  font-size: 20pt;
+  margin-bottom: 1em;
+  margin-left: 0.5em;
+  margin-right: 1em;
+  outline: none;
+  padding: 0.8em;
+  text-align: center;
+}
+
+.container-search > button {
+  background-color: rgb(22, 8, 102);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5em;
+  letter-spacing: 1.6px;
+  padding: 1em;
+}
+
+.container-search > button:disabled {
+  opacity: 0.6;
+}
+
+.container-musics-search {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+}
+
+
+.container-musics {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(49, 49, 49, 0.233);
+  height: 320px;
+  padding-bottom: 350px;
+  transition: transform 0.3s linear;
+  width: 260px;
+}
+
+.container-musics:hover {
+  transform: translateY(-30px);
+  transition: transform 0.3s linear;
+}
+
+.container-musics > img {
+  width: 100%;
+}
+
+.link-music {
+  color: black;
+  margin-right: 20px;
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+.musics-title {
+  margin-left: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.musics-title > h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.musics-title > h4 {
+  color: rgb(17, 17, 16);
+  font-size: 12pt;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.title-search {
+  color: white;
+  text-shadow: 1px 1px 2px rgb(51, 51, 51);
+}

@@ -1,0 +1,89 @@
+.container-album {
+  align-items: center;
+  background-color: rgb(40, 40, 92);
+  background-image: linear-gradient(rgb(40, 40, 92), rgb(0, 0, 114));
+  display: flex;
+  height: 80vh;
+  justify-content: space-evenly;
+  margin: 1% auto;
+  padding: 40px;
+  width: 90%;
+}
+
+.title-album {
+  color: white;
+  font-size: 3em;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.title-album > img {
+  height: 200px;
+  width: 200px;
+}
+
+.music-card {
+  height: 70vh;
+  overflow: auto;
+  width: 90%;
+}
+
+.cardMusic {
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 20px;
+  width: 100%;
+}
+
+
+.Card-title {
+  color: white;
+  width: 20%;
+}
+
+.label-cardMusic {
+  margin-right: 20px;
+}
+
+input[ type = 'checkbox' ] {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  border: none;
+  position: relative;
+  transform: rotate(45deg);
+  -webkit-appearance: none;
+}
+
+
+ input[type="checkbox"]:before {
+  position: absolute;
+  content: "";
+  background-color: white;
+  height: 60%;
+  width: 100%;
+  top: -50%;
+  border-radius: 75px 75px 0 0;
+  -webkit-appearance: none;
+}
+
+input[type="checkbox"]:after {
+  position: absolute;
+  content: "";
+  background-color: white;
+  height: 60%;
+  width: 100%;
+  transform: rotate(-90deg);
+  top: 20%;
+  right: 70%;
+  border-radius: 75px 75px 0 0;
+}
+
+input[type="checkbox"]:checked,
+input:checked[type="checkbox"]:before,
+input:checked[type="checkbox"]:after {
+  background-color: #fe0f42;
+}
